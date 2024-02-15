@@ -10,9 +10,11 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL
+    origin: process.env.FRONTEND_URL,
   })
 );
+
+app.use(express.json());
 
 // Import the API routes from the router module
 const router = require("./router");
