@@ -1,6 +1,7 @@
 # Simple React Vite & Express fullstack template
 
-This minimal fullstack template is using :
+ My own minimal fullstack template for personnal projects purposes.
+ Feel free to fork and personnalize it at your convenience.
 
 ## Stack
 
